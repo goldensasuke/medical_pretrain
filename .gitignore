@@ -1,0 +1,57 @@
+# =========================
+# Python cache and bytecode
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =========================
+# Python build / packaging
+# =========================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =========================
+# Python environment
+# =========================
+venv/
+ENV/
+env/
+.env
+.env/
+
+# =========================
+# Data files
+# =========================
+*.pkl
+*.npy
+*.csv
+*.h5
+*.hdf5
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# =========================
+# OS generated
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# WandB
+# =========================
+wandb/
