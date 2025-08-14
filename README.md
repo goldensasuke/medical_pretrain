@@ -1,4 +1,4 @@
-# Yucca Pretrain: Mask-based Self-Supervised Pretraining for Image Anomaly Detection
+# Medical_Pretrain: Mask-based Self-Supervised Pretraining for Image Anomaly Detection
 
 這個專案提供一個完整框架，使用 **Mask-based Self-Supervised Learning (MAE-style)** 對影像資料進行預訓練，方便後續用於異常偵測任務。專案整合了 **資料預處理、模型預訓練**，並可透過 **WandB** 追蹤訓練過程。
 
@@ -18,7 +18,7 @@
 ## 專案結構
 
 ```
-yucca_pretrain/
+medical_pretrain/
 │
 ├─ pyproject.toml           # 專案依賴管理
 ├─ README.md
@@ -60,8 +60,8 @@ pip install -e .
 
 ```bash
 python scripts/pretrain.py \
-    --data_dir "./raw_images" \
-    --output_dir "./processed" \
+    --data_dir "your_data_location" \
+    --output_dir "your_output_location" \
     --model_name "efficientnet_b0" \
     --epochs 10 \
     --lr 1e-4 \
